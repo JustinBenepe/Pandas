@@ -1,0 +1,6 @@
+import pandas as pd
+df = pd.read_csv ('cars.csv')
+df.iloc[[0,1,2,3,4,],[0,2,4,6,8,10]]
+df.iloc[[0]]
+df.loc[[23],['Model','cyl']] 
+df.loc[[1,18,28],['Model','cyl','gear']] 
